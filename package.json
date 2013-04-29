@@ -6,6 +6,10 @@
   "author": {
     "name": "jQuery Foundation"
   },
+  "maintainers": {
+    "name": "Hyunsook",
+    "email": "hspark.dasom@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/hyunsook/jqm-api-grunt-jquery-content.git"
@@ -23,17 +27,18 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.2.0",
-    "grunt-wordpress": "1.0.7",
+  "dependencies": {
     "highlight.js": "7.3.0",
     "ent": "0.0.5",
     "cheerio": "0.8.3",
     "rimraf": "2.0.2",
     "marked": "0.2.5",
     "js-yaml": "2.0.1"
+   },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "git://github.com/gruntjs/grunt-contrib-jshint.git#master",
+    "grunt-wordpress": "git://github.com/hyunsook/jqm-api-grunt-wordpress.git#master"
   },
   "keywords": [
     "gruntplugin"
